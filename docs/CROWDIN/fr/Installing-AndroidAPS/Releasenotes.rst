@@ -32,11 +32,11 @@ Android 8
 Android 7
 ------------------------------------
 * Utiliser la version **2.6.2** d'AAPS
-* Téléchargez le code AAPS depuis https://github.com/MilosKozak/AndroidAPS branche 2.6.2
+* Téléchargez le code AAPS depuis https://github.com/nightscout/AndroidAPS branche 2.6.2
 
 Version 3.1.0
 ================
-Release date: XX-XX-2022
+Date de sortie : XX-XX-2022
 
 Conseils importants
 ----------------------
@@ -46,16 +46,19 @@ Conseils importants
 Modifications
 ----------------------
 * fixed issues from 3.0 version
+* fix application freezing @MilosKozak
 * fixed DASH driver @avereha
-* UI cleanup and unification, migration to material design, styles, white theme. @Andries-Smit @MilosKozak @osodebailar @Philoul
+* fixed Dana drivers @MilosKozak
+* huge UI improvement, cleanup and unification, migration to material design, styles, white theme, new icons. @Andries-Smit @MilosKozak @osodebailar @Philoul
 * widget @MilosKozak
-* Aidex CGM support @markvader @andyrozman (Pumpcontrol only)
-* Wear tiles @Andries-Smith
+* Aidex CGM support @andyrozman @markvader (Pumpcontrol only)
+* Wear tiles, translations @Andries-Smith
 * Wear code refactored. Not backward compatible anymore @MilosKozak
 * a11y improvements @Andries-Smith
 * new protection option PIN @Andries-Smit
 * allow graph scale from menu @MilosKozak
 * more statistics available @MilosKozak
+* MDI plugin removed in favor of VirtualPump
 
 Version 3.0.0
 ================
@@ -193,7 +196,7 @@ Date de sortie : 24-09-2020
 
 **Assurez vous de vérifier et ajuster vos paramètrages après la mise à jour vers la version 2.7 comme c'est décrit** `ici <../Installing-AndroidAPS/update2_7.html>`__.
 
-You need at least start `objective 11 (in later versions objective 10!) <../Usage/Objectives.html#objective-10-automation>`_ in order to continue using `Automation feature <../Usage/Automation.html>`_ (all previous objectives must be completed otherwise starting Objective 11 is not possible). If for example you did not finish the exam in `objective 3 <../Usage/Objectives.html#objective-3-prove-your-knowledge>`_ yet, you will have to complete the exam before you can start `objective 11 <../Usage/Objectives.html#objective-10-automation>`_. Cela n'affectera pas les autres objectifs que vous avez déjà terminés. Vous conserverez tous les objectifs terminés !
+You need at least start `objective 11 (in later versions objective 10!) <../Usage/Objectives.html#objective-10-automation>`_ in order to continue using `Automation feature <../Usage/Automation.html>`_ (all previous objectives must be completed otherwise starting Objective 11 is not possible). Si par exemple vous n'avez pas encore terminé l'examen dans l'`objective 3 <../Usage/Objectives. tml#objectif-3-prouver-ses-connaissances>`_ , vous devrez terminer l'examen avant de pouvoir commencer l'`objective 10 <../Usage/Objectives.html#objectif-10-automatisation>`_. Cela n'affectera pas les autres objectifs que vous avez déjà terminés. Vous conserverez tous les objectifs terminés !
 
 Nouvelles fonctionnalités majeures
 ----------------------
